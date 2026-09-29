@@ -473,6 +473,11 @@ footer{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;padding:40px
 .legal{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center}
 .legal button{background:none;border:0;padding:6px 0;font-size:13.5px;color:var(--tx-3);cursor:pointer;text-decoration:none;min-height:36px}
 .legal button:hover{color:var(--tx)}
+.social{display:flex;align-items:center;gap:4px;margin-left:auto}
+.social a{display:inline-grid;place-items:center;width:40px;height:40px;color:var(--tx-3);transition:color .25s}
+.social a:hover{color:var(--tx)}
+.social svg{width:19px;height:19px}
+@media (max-width:700px){.legal{order:1;flex-basis:100%}}
 .ov{position:fixed;inset:0;z-index:90;display:none;align-items:flex-start;justify-content:center;padding:calc(env(safe-area-inset-top,0px) + 4vh) 16px calc(env(safe-area-inset-bottom,0px) + 4vh);background:rgba(4,5,12,.6);backdrop-filter:blur(6px)}
 .ov.on{display:flex;animation:ovin .3s var(--ease)}
 @keyframes ovin{from{opacity:0}}
@@ -912,6 +917,10 @@ footer p{margin:0 auto 0 0}
         <button type="button" data-doc="kvkk" data-i18n="lg.kvkk">Privacy notice (KVKK)</button>
         <button type="button" data-doc="priv" data-i18n="lg.priv">Privacy policy</button>
         <button type="button" data-doc="cook" data-i18n="lg.cook">Cookie policy</button>
+      </span>
+      <span class="social">
+        <a href="https://www.linkedin.com/company/regova/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="https://www.instagram.com/regova.ai/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
       </span>
     </footer>
   </div>
