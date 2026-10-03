@@ -4,6 +4,18 @@
     <loc>https://regova.ai/</loc>
   </url>
   <url>
+    <loc>https://regova.ai/resources/regulatory-monitoring-vs-intelligence/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://regova.ai/resources/regulatory-monitoring-vs-intelligence/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://regova.ai/tr/kaynaklar/mevzuat-takibi-ve-mevzuat-istihbarati/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://regova.ai/resources/regulatory-monitoring-vs-intelligence/"/>
+  </url>
+  <url>
+    <loc>https://regova.ai/tr/kaynaklar/mevzuat-takibi-ve-mevzuat-istihbarati/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://regova.ai/resources/regulatory-monitoring-vs-intelligence/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://regova.ai/tr/kaynaklar/mevzuat-takibi-ve-mevzuat-istihbarati/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://regova.ai/resources/regulatory-monitoring-vs-intelligence/"/>
+  </url>
+  <url>
     <loc>https://regova.ai/resources/regulatory-digital-twin/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://regova.ai/resources/regulatory-digital-twin/"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://regova.ai/tr/kaynaklar/regulasyon-dijital-ikizi/"/>
