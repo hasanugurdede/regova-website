@@ -1073,7 +1073,7 @@ function stream(S){
   step();
 }
 function done(S){
-  resrow.innerHTML=S.na?`<span class="badge na">${L().na}</span>`:`<span class="badge ap">${L().ap}</span><span class="imp">${L().imp}: <b>${L().lv[S.lv]}</b></span>`;
+  resrow.innerHTML=S.na?`<span class="badge na">${L().na}</span>`:`<span class="badge ap">${L().ap}</span>`;
   T(()=>resrow.classList.add('on'),150);
   if(!S.na) S.a.forEach((a,i)=>T(()=>{const d=document.createElement('div');d.className='act';d.innerHTML=`<span class="cb"></span><span class="tt">${a[0]}<small>${a[3]}</small></span><span class="ow"><span class="av ${a[2]}">${ini(a[1])}</span>${a[1]}</span>`;acts.appendChild(d);},500+i*380));
   T(()=>status(3),S.na?600:1400);
